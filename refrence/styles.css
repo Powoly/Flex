@@ -1,0 +1,47 @@
+
+
+.title
+{
+    border: 100px;
+    border-color:rgb(132, 213, 245);
+    margin: 10px;
+    align-items: center;
+    background-color: aqua;
+    padding: 100;
+    text-align: center;
+    font-size: 70px;
+    color: antiquewhites;
+    border-style:solid;
+    
+}
+
+
+.flex-container{
+    height: 1000px;
+  padding: 16px;
+  background: plum;
+  border: 4px solid indigo;
+  display: flex;
+  justify-content: space-around; 
+}
+
+div .column
+{
+    background-color: rgb(224, 224, 233);
+    flex: auto;
+    border: 4px solid brown;
+    flex-direction: column;
+    display: flex;
+    padding: 10px;
+
+}
+
+div .row
+{
+    background-color: rgb(224, 224, 233);
+    border: 4px solid rgb(51, 48, 48);
+    padding: 10px;
+    margin: 10px;
+    flex:0,1, 0;
+    
+}
