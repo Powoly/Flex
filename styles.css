@@ -2,15 +2,41 @@
 .flex-container
 {
     display: flex;
-    margin: auto;
-    padding: auto;
+    padding: 16px;
+    height: 2000px;
     border: 10px;
-    background-color: aqua;
+    justify-content: space-evenly;
 }
+
+.hnf
+{
+    background-color: #1f2937;
+    justify-content: space-evenly;
+}
+
 .third
 {
     flex: auto;
     text-align: center;
     font-size: x-large;
+}
 
+
+.boxes
+{
+    flex:auto;
+    background-color: rgb(224, 224, 233);
+    flex: auto;
+    border: 4px solid brown;
+    display: flex;
+    padding: 10px;
+}
+
+a
+{
+    flex: auto;
+    margin: 20px;
+    padding: 20px;
+    border: 3000 px;
+    
 }
